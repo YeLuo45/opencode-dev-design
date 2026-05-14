@@ -1,0 +1,109 @@
+/* Purple gradient Hero background */
+.VPHome {
+  background: linear-gradient(135deg, #0f0a1a 0%, #1a0f35 50%, #0f0a1a 100%);
+  padding: 2rem 0;
+}
+
+/* Title gradient text */
+.VPHero .name {
+  font-size: 3.5rem;
+  background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Tagline */
+.VPHero .tagline {
+  color: #c4b5fd;
+  font-size: 1.25rem;
+}
+
+/* Feature cards */
+.VPFeature {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(124, 58, 237, 0.05) 100%) !important;
+  border: 1px solid rgba(124, 58, 237, 0.2) !important;
+}
+
+.VPFeature:hover {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.2) 0%, rgba(124, 58, 237, 0.1) 100%) !important;
+  border-color: rgba(124, 58, 237, 0.4) !important;
+}
+
+/* Navigation */
+.VPNav {
+  background: rgba(15, 10, 26, 0.9) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+.VPNavBarTitle .title {
+  background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* Sidebar */
+.VPSidebar {
+  background: rgba(15, 10, 26, 0.5) !important;
+}
+
+/* Code blocks */
+.vp-code-group .tabs {
+  background: rgba(124, 58, 237, 0.1) !important;
+}
+
+/* Links */
+a {
+  color: #a78bfa;
+}
+
+a:hover {
+  color: #c084fc;
+}
+
+/* Custom blocks */
+.custom-block.tip {
+  border-color: #7c3aed;
+}
+
+.custom-block.tip .custom-block-title {
+  color: #a78bfa;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c3aed;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
+
+/* Body text */
+.vp-doc div {
+  color: #e2e8f0;
+}
+
+.vp-doc p {
+  color: #cbd5e1;
+}
